@@ -25,10 +25,52 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+img {
+	display: block;
+	width: 100%;
+}
 
 input,
 button,
 textarea,
 select {
 	font: inherit;
+}
+
+body {
+	background-color: var(--bg-color);
+	font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+	min-height: 100vh;
+	display: flex;
+}
+
+.logo-section .image {
+	width: 30%;
+}
+.logo-container {
+	padding: 16px 0px;
+	background-color: rgba(0, 0, 0, 0.26);
+
+	margin-top: 10rem;
+	justify-content: center;
+	align-items: center;
+	gap: 9px;
+	display: flex;
+}
+
+.logo-section {
+	width: 380px;
+	background-image: url("images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	border: 2px solid yellow;
+}
+.logo-section h1 {
+	color: var(--heading);
+	font-weight: 900;
+	font-size: 3rem;
+	font-family: "logo", sans-serif;
 }
