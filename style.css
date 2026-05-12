@@ -7,6 +7,17 @@
 	font-style: normal;
 }
 
+:root {
+	--btn-color: #596d48;
+	--btn-default-border-clr: #e5e7eb;
+	--input-focus: #2563eb;
+	--input-error: #ef4444;
+	--heading: #ffffff;
+	--bg-color: #f9fafb;
+	--form-bg: #ffffff;
+	--text: #111827;
+	--label: #374151;
+}
 *,
 *::before,
 *::after {
