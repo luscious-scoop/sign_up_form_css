@@ -63,7 +63,7 @@ body {
 }
 
 .logo-section {
-	width: 380px;
+	width: 350px;
 	background-image: url("images/bg.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -73,7 +73,7 @@ body {
 .logo-section h1 {
 	color: var(--heading);
 	font-weight: 900;
-	font-size: 3rem;
+	font-size: 2rem;
 	font-family: "logo", sans-serif;
 }
 
@@ -86,21 +86,21 @@ body {
 
 .form-section {
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-	padding: 20px;
+	padding: 15px;
 	/* border: 2px solid yellow; */
 	background-color: var(--form-bg);
 }
 
 .form-section h2 {
 	margin-bottom: -12px;
-	margin-left: 25px;
+	margin-left: 1.7rem;
 	/* border: 2px solid blanchedalmond; */
 	font-size: 1.5rem;
 	color: grey;
 }
 
 form {
-	padding: 26px;
+	padding: 1.4rem;
 	display: flex;
 	gap: 80px;
 	/* border: 2px solid yellow; */
@@ -140,7 +140,7 @@ input[type="password"]:valid {
 
 .introduction p:first-child {
 	/* 	border: 2px solid red; */
-	padding: 20px;
+	padding: 10px;
 	font-size: 1.2rem;
 	width: 58ch;
 	font-weight: bold;
