@@ -140,20 +140,22 @@ input[type="password"]:valid {
 
 .introduction p:first-child {
 	/* 	border: 2px solid red; */
-	padding: 10px;
+
 	font-size: 1.2rem;
 	width: 58ch;
 	font-weight: bold;
 	line-height: 1.2rem;
 
-	margin: 2rem 0rem 0rem 0.5rem;
+	margin: 2rem 0rem 1rem 1rem;
+	/* border: 2px solid black; */
 }
 
 .introduction p:nth-child(2) {
+	/* border: 2px solid rebeccapurple; */
 	font-weight: bold;
 	font-size: 1.2rem;
 	margin-bottom: 2rem;
-	margin-left: 1.1rem;
+	margin-left: 1rem;
 }
 
 .buttons button {
