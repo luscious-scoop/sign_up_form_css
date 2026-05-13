@@ -43,7 +43,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 .main {
-	border: 2px solid blue;
+	/* border: 2px solid blue; */
 	min-height: 100vh;
 	display: flex;
 }
@@ -68,7 +68,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 
-	border: 2px solid yellow;
+	/* 	border: 2px solid yellow; */
 }
 .logo-section h1 {
 	color: var(--heading);
@@ -82,7 +82,6 @@ body {
 	/* border: 2px solid red; */
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
 }
 
 .form-section {
@@ -103,7 +102,7 @@ body {
 form {
 	padding: 26px;
 	display: flex;
-	gap: 60px;
+	gap: 80px;
 	/* border: 2px solid yellow; */
 }
 
@@ -114,11 +113,11 @@ form label {
 form > * {
 	display: flex;
 	flex-direction: column;
-	gap: 80px;
+	gap: 20px;
 }
 
 form input {
-	padding: 8px;
+	padding: 4px 12px;
 	transition: all 0.3s;
 }
 
@@ -131,9 +130,49 @@ form input:not(input[type="password"]):focus {
 input[type="password"]:invalid {
 	outline: none;
 	border: 2px solid var(--input-error);
+	box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.192);
 }
 
 input[type="password"]:valid {
 	outline: none;
 	border: 2px solid var(--btn-color);
+}
+
+.introduction p:first-child {
+	/* 	border: 2px solid red; */
+	padding: 20px;
+	font-size: 1.2rem;
+	width: 58ch;
+	font-weight: bold;
+	line-height: 1.2rem;
+
+	margin: 3rem 0rem 0rem 1rem;
+}
+
+.introduction p:nth-child(2) {
+	font-weight: bold;
+	font-size: 1.2rem;
+	margin-bottom: 3rem;
+	margin-left: 2.2rem;
+}
+
+.buttons button {
+	margin: 2rem 0rem 1rem 2rem;
+	background-color: var(--btn-color);
+	color: white;
+	padding: 12px 24px;
+	border-radius: 8px;
+	border: none;
+	font-weight: bold;
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.178);
+	cursor: pointer;
+}
+
+.buttons a {
+	text-decoration: none;
+	color: var(--btn-color);
+}
+
+.buttons p {
+	margin-left: 2rem;
 }
